@@ -2,3 +2,7 @@
 name = "0yap"
 main = "src/index.js"
 compatibility_date = "2025-06-19"
+
+[[hyperdrive]]
+binding = "db"
+id = "fb13e2ccf30846cd96733ccad8f1ab39"
