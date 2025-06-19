@@ -15,7 +15,7 @@ export default {
 	async fetch(request, env, ctx) {
 		const url = new URL(request.url);
 		switch (url.pathname) {
-			case '/message':
+			case '/':
 				return new Response('Hello, World!');
 			case '/random':
 				return new Response(crypto.randomUUID());
